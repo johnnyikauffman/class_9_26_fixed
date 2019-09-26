@@ -9,17 +9,10 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 
 
-install.packages("gganimate")
-
-install.packages("gifski")
-
-install.packages("gapminder")
-
 library(gganimate)
 library(gifski)
 library(gapminder)
 library(tidyverse)
-
 
 
 
